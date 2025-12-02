@@ -10,7 +10,7 @@
     "toolkit",
     "utilities"
   ],
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/_global.js",
   "types": "./dist/_global.d.ts",
@@ -21,28 +21,34 @@
     ".": {
       "types": "./dist/_global.d.ts",
       "import": "./dist/_global.js",
-      "require": "./dist/_global.cjs"
+      "require": "./dist/_global.cjs",
+      "default": "./dist/_global.js"
     },
     "./lib": {
       "types": "./dist/lib/_global.d.ts",
       "import": "./dist/lib/_global.js",
-      "require": "./dist/lib/_global.cjs"
+      "require": "./dist/lib/_global.cjs",
+      "default": "./dist/lib/_global.js"
     },
     "./utils": {
       "types": "./dist/utils/_global.d.ts",
       "import": "./dist/utils/_global.js",
-      "require": "./dist/utils/_global.cjs"
+      "require": "./dist/utils/_global.cjs",
+      "default": "./dist/utils/_global.js"
     },
     "./hooks": {
       "types": "./dist/hooks/_global.d.ts",
       "import": "./dist/hooks/_global.js",
-      "require": "./dist/hooks/_global.cjs"
+      "require": "./dist/hooks/_global.cjs",
+      "default": "./dist/hooks/_global.js"
     },
     "./constants": {
       "types": "./dist/constants/_global.d.ts",
       "import": "./dist/constants/_global.js",
-      "require": "./dist/constants/_global.cjs"
-    }
+      "require": "./dist/constants/_global.cjs",
+      "default": "./dist/constants/_global.js"
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "build": "tsup",
