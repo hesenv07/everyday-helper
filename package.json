@@ -25,36 +25,19 @@
     "LICENSE",
     "README.md"
   ],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs",
       "default": "./dist/index.js"
-    },
-    "./lib": {
-      "types": "./dist/lib/index.d.ts",
-      "import": "./dist/lib/index.js",
-      "require": "./dist/lib/index.cjs",
-      "default": "./dist/lib/index.js"
-    },
-    "./utils": {
-      "types": "./dist/utils/index.d.ts",
-      "import": "./dist/utils/index.js",
-      "require": "./dist/utils/index.cjs",
-      "default": "./dist/utils/index.js"
-    },
-    "./hooks": {
-      "types": "./dist/hooks/index.d.ts",
-      "import": "./dist/hooks/index.js",
-      "require": "./dist/hooks/index.cjs",
-      "default": "./dist/hooks/index.js"
-    },
-    "./constants": {
-      "types": "./dist/constants/index.d.ts",
-      "import": "./dist/constants/index.js",
-      "require": "./dist/constants/index.cjs",
-      "default": "./dist/constants/index.js"
     },
     "./package.json": "./package.json"
   },

@@ -3,13 +3,14 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
   entry: [
     'src/index.ts',
-    'src/lib/index.ts',
-    'src/utils/index.ts',
-    'src/hooks/index.ts',
-    'src/constants/index.ts',
+    // 'src/lib/index.ts',
+    // 'src/utils/index.ts',
+    // 'src/hooks/index.ts',
+    // 'src/constants/index.ts',
   ],
   format: ['esm', 'cjs'],
   dts: {
+    only: true,
     resolve: true,
     compilerOptions: {
       moduleResolution: 'node10',
