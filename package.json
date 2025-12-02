@@ -18,8 +18,8 @@
     "toolkit",
     "utilities"
   ],
-  "main": "./dist/_global.js",
-  "types": "./dist/_global.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist",
     "LICENSE",
@@ -27,34 +27,34 @@
   ],
   "exports": {
     ".": {
-      "types": "./dist/_global.d.ts",
-      "import": "./dist/_global.js",
-      "require": "./dist/_global.cjs",
-      "default": "./dist/_global.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
     },
     "./lib": {
-      "types": "./dist/lib/_global.d.ts",
-      "import": "./dist/lib/_global.js",
-      "require": "./dist/lib/_global.cjs",
-      "default": "./dist/lib/_global.js"
+      "types": "./dist/lib/index.d.ts",
+      "import": "./dist/lib/index.js",
+      "require": "./dist/lib/index.cjs",
+      "default": "./dist/lib/index.js"
     },
     "./utils": {
-      "types": "./dist/utils/_global.d.ts",
-      "import": "./dist/utils/_global.js",
-      "require": "./dist/utils/_global.cjs",
-      "default": "./dist/utils/_global.js"
+      "types": "./dist/utils/index.d.ts",
+      "import": "./dist/utils/index.js",
+      "require": "./dist/utils/index.cjs",
+      "default": "./dist/utils/index.js"
     },
     "./hooks": {
-      "types": "./dist/hooks/_global.d.ts",
-      "import": "./dist/hooks/_global.js",
-      "require": "./dist/hooks/_global.cjs",
-      "default": "./dist/hooks/_global.js"
+      "types": "./dist/hooks/index.d.ts",
+      "import": "./dist/hooks/index.js",
+      "require": "./dist/hooks/index.cjs",
+      "default": "./dist/hooks/index.js"
     },
     "./constants": {
-      "types": "./dist/constants/_global.d.ts",
-      "import": "./dist/constants/_global.js",
-      "require": "./dist/constants/_global.cjs",
-      "default": "./dist/constants/_global.js"
+      "types": "./dist/constants/index.d.ts",
+      "import": "./dist/constants/index.js",
+      "require": "./dist/constants/index.cjs",
+      "default": "./dist/constants/index.js"
     },
     "./package.json": "./package.json"
   },

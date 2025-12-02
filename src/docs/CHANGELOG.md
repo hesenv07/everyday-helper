@@ -7,6 +7,9 @@ and this project adheres to [Conventional Commits](https://www.conventionalcommi
 
 ## [Unreleased] 
 
+### [1.0.4] - 2025-12-02
+- Replaced all _global.ts files to index.ts
+
 ### [1.0.3] - 2025-12-02
 - Fixed TypeScript "cannot find module or its type declaration" errors by properly configuring `tsup` build process
 - Added named exports to all hooks and library functions for better IDE autocomplete and IntelliSense support

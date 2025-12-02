@@ -2,11 +2,11 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   entry: [
-    'src/_global.ts',
-    'src/lib/_global.ts',
-    'src/utils/_global.ts',
-    'src/hooks/_global.ts',
-    'src/constants/_global.ts',
+    'src/index.ts',
+    'src/lib/index.ts',
+    'src/utils/index.ts',
+    'src/hooks/index.ts',
+    'src/constants/index.ts',
   ],
   format: ['esm', 'cjs'],
   dts: {
