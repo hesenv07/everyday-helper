@@ -7,6 +7,9 @@ and this project adheres to [Conventional Commits](https://www.conventionalcommi
 
 ## [Unreleased] 
 
+### [1.0.5] - 2025-12-02
+- Removing extra import based on sub folders, and keeping only index.ts for resolving auto suggestions on vs code
+
 ### [1.0.4] - 2025-12-02
 - Replaced all _global.ts files to index.ts
 
