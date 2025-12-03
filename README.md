@@ -1,6 +1,6 @@
 # everyday-helper
 
-A comprehensive collection of React hooks, utility functions, and helpers that'll make your development workflow smoother. This package brings together commonly needed utilities so you don't have to reinvent the wheel every time you start a new project.
+A lightweight collection of React hooks, utility functions, and helpers that'll make your development workflow smoother. This package brings together commonly needed utilities so you don't have to reinvent the wheel every time you start a new project.
 
 ## Contributing
 
